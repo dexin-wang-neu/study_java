@@ -1,0 +1,77 @@
+{
+  "groups": [
+    {
+      "name": "mycar",
+      "type": "com.atguigu.boot.bean.Car",
+      "sourceType": "com.atguigu.boot.bean.Car"
+    },
+    {
+      "name": "person2",
+      "type": "com.atguigu.boot.bean.Person2",
+      "sourceType": "com.atguigu.boot.bean.Person2"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mycar.brand",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.boot.bean.Car"
+    },
+    {
+      "name": "mycar.price",
+      "type": "java.lang.Integer",
+      "sourceType": "com.atguigu.boot.bean.Car"
+    },
+    {
+      "name": "person2.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.atguigu.boot.bean.Person2"
+    },
+    {
+      "name": "person2.all-pets",
+      "type": "java.util.Map<java.lang.String,java.util.List<com.atguigu.boot.bean.Pet>>",
+      "sourceType": "com.atguigu.boot.bean.Person2"
+    },
+    {
+      "name": "person2.animal",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.atguigu.boot.bean.Person2"
+    },
+    {
+      "name": "person2.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.atguigu.boot.bean.Person2"
+    },
+    {
+      "name": "person2.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.atguigu.boot.bean.Person2"
+    },
+    {
+      "name": "person2.interests",
+      "type": "java.lang.String[]",
+      "sourceType": "com.atguigu.boot.bean.Person2"
+    },
+    {
+      "name": "person2.pet",
+      "type": "com.atguigu.boot.bean.Pet2",
+      "sourceType": "com.atguigu.boot.bean.Person2"
+    },
+    {
+      "name": "person2.salarys",
+      "type": "java.util.Set<java.lang.Double>",
+      "sourceType": "com.atguigu.boot.bean.Person2"
+    },
+    {
+      "name": "person2.score",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.atguigu.boot.bean.Person2"
+    },
+    {
+      "name": "person2.user-name",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.boot.bean.Person2"
+    }
+  ],
+  "hints": []
+}

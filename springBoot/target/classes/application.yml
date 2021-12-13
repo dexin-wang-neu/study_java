@@ -1,0 +1,36 @@
+person2:
+  userName: 'zhangsan \n 李四'
+  #单引号会将 \n 作为字符串输出；双引号则转义为换行
+  boss: true
+  birth: 2021/12/9
+  age: 12
+#  interests: [篮球,足球]
+  interests:
+    - 篮球
+    - 足球
+    - 18
+  animal: [阿猫,阿狗]
+#  score:
+#    english: 80
+#    math: 90
+  score: {english:80,math:90}
+  salarys:
+    - 9999
+    - 9998
+  pet:
+    name: 阿狗
+    weight: 99
+  allPets:
+    sick:
+      - {name: 阿狗,weight: 99}
+      - name: 阿猫
+        weight: 88
+      - name: 阿虫
+        weight: 77
+    health: [{name: mario,weight: 47}]
+
+spring:
+  banner:
+    image:
+      location: classpath:banner.jpg
+

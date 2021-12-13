@@ -1,0 +1,13 @@
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true  #REST风格生效
+    contentnegotiation:
+      favor-parameter: true   #开启参数方式的内容协商  http://localhost:8080/test/person?format=json/xml
+  #    static-path-pattern: /res/**  #给静态资源加前缀才能访问
+  resources:
+    static-locations: [classpath:/haha/]
+server:
+  servlet:
+    context-path: /world    # 路径请求前都得加这个才能访问

@@ -1,0 +1,93 @@
+2021-10-13 22:34:16.151  INFO 2556 --- [main] c.n.s.SpringbootLoggingApplicationTests  : Starting SpringbootLoggingApplicationTests using Java 1.8.0_20 on DESKTOP-AKCHJRN with PID 2556 (started by neu in E:\坚果云\我的坚果云\springboot-logging)
+2021-10-13 22:34:16.151 DEBUG 2556 --- [main] c.n.s.SpringbootLoggingApplicationTests  : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-13 22:34:16.152  INFO 2556 --- [main] c.n.s.SpringbootLoggingApplicationTests  : No active profile set, falling back to default profiles: default
+2021-10-13 22:34:17.213  INFO 2556 --- [main] c.n.s.SpringbootLoggingApplicationTests  : Started SpringbootLoggingApplicationTests in 1.304 seconds (JVM running for 2.055)
+2021-10-13 22:34:17.344 TRACE 2556 --- [main] c.n.s.SpringbootLoggingApplicationTests  : 这是trace日志...
+2021-10-13 22:34:17.345 DEBUG 2556 --- [main] c.n.s.SpringbootLoggingApplicationTests  : 这是debug日志...
+2021-10-13 22:34:17.345  INFO 2556 --- [main] c.n.s.SpringbootLoggingApplicationTests  : 这是info日志...
+2021-10-13 22:34:17.345  WARN 2556 --- [main] c.n.s.SpringbootLoggingApplicationTests  : 这是warn日志...
+2021-10-13 22:34:17.345 ERROR 2556 --- [main] c.n.s.SpringbootLoggingApplicationTests  : 这是error日志...
+2021-10-13 === [main] === INFO  ===c.neu.springboot.SpringbootLoggingApplicationTests === Starting SpringbootLoggingApplicationTests using Java 1.8.0_20 on DESKTOP-AKCHJRN with PID 6020 (started by neu in E:\坚果云\我的坚果云\springboot-logging)
+2021-10-13 === [main] === DEBUG ===c.neu.springboot.SpringbootLoggingApplicationTests === Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-13 === [main] === INFO  ===c.neu.springboot.SpringbootLoggingApplicationTests === No active profile set, falling back to default profiles: default
+2021-10-13 === [main] === INFO  ===c.neu.springboot.SpringbootLoggingApplicationTests === Started SpringbootLoggingApplicationTests in 1.36 seconds (JVM running for 2.112)
+2021-10-13 === [main] === TRACE ===c.neu.springboot.SpringbootLoggingApplicationTests === 这是trace日志...
+2021-10-13 === [main] === DEBUG ===c.neu.springboot.SpringbootLoggingApplicationTests === 这是debug日志...
+2021-10-13 === [main] === INFO  ===c.neu.springboot.SpringbootLoggingApplicationTests === 这是info日志...
+2021-10-13 === [main] === WARN  ===c.neu.springboot.SpringbootLoggingApplicationTests === 这是warn日志...
+2021-10-13 === [main] === ERROR ===c.neu.springboot.SpringbootLoggingApplicationTests === 这是error日志...
+2021-10-13 === [main] === INFO  ===com.neu.springboot.SpringbootLoggingApplication === Starting SpringbootLoggingApplication using Java 1.8.0_20 on DESKTOP-AKCHJRN with PID 10488 (E:\坚果云\我的坚果云\springboot-logging\target\classes started by neu in E:\坚果云\我的坚果云\springboot-logging)
+2021-10-13 === [main] === DEBUG ===com.neu.springboot.SpringbootLoggingApplication === Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-13 === [main] === INFO  ===com.neu.springboot.SpringbootLoggingApplication === No active profile set, falling back to default profiles: default
+2021-10-13 === [main] === INFO  ===o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat initialized with port(s): 8080 (http)
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.StandardService === Starting service [Tomcat]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.StandardEngine === Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === An older version [1.2.24] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-10-13 === [main] === INFO  ===o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring embedded WebApplicationContext
+2021-10-13 === [main] === INFO  ===o.s.b.w.s.c.ServletWebServerApplicationContext === Root WebApplicationContext: initialization completed in 623 ms
+2021-10-13 === [main] === INFO  ===o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-13 === [main] === INFO  ===com.neu.springboot.SpringbootLoggingApplication === Started SpringbootLoggingApplication in 1.16 seconds (JVM running for 1.751)
+2021-10-13 === [main] === INFO  ===com.neu.springboot.SpringbootLoggingApplication === Starting SpringbootLoggingApplication using Java 1.8.0_20 on DESKTOP-AKCHJRN with PID 5532 (E:\坚果云\我的坚果云\springboot-logging\target\classes started by neu in E:\坚果云\我的坚果云\springboot-logging)
+2021-10-13 === [main] === DEBUG ===com.neu.springboot.SpringbootLoggingApplication === Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-13 === [main] === INFO  ===com.neu.springboot.SpringbootLoggingApplication === No active profile set, falling back to default profiles: default
+2021-10-13 === [main] === INFO  ===o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat initialized with port(s): 8080 (http)
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.StandardService === Starting service [Tomcat]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.StandardEngine === Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === An older version [1.2.24] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-10-13 === [main] === INFO  ===o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring embedded WebApplicationContext
+2021-10-13 === [main] === INFO  ===o.s.b.w.s.c.ServletWebServerApplicationContext === Root WebApplicationContext: initialization completed in 672 ms
+2021-10-13 === [main] === INFO  ===o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-13 === [main] === INFO  ===com.neu.springboot.SpringbootLoggingApplication === Started SpringbootLoggingApplication in 1.24 seconds (JVM running for 1.741)
+2021-10-13 === [main] === INFO  ===com.neu.springboot.SpringbootLoggingApplication === Starting SpringbootLoggingApplication using Java 1.8.0_20 on DESKTOP-AKCHJRN with PID 2260 (E:\坚果云\我的坚果云\springboot-logging\target\classes started by neu in E:\坚果云\我的坚果云\springboot-logging)
+2021-10-13 === [main] === DEBUG ===com.neu.springboot.SpringbootLoggingApplication === Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-13 === [main] === INFO  ===com.neu.springboot.SpringbootLoggingApplication === No active profile set, falling back to default profiles: default
+2021-10-13 === [main] === INFO  ===o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat initialized with port(s): 8080 (http)
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.StandardService === Starting service [Tomcat]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.StandardEngine === Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === An older version [1.2.24] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-10-13 === [main] === INFO  ===o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring embedded WebApplicationContext
+2021-10-13 === [main] === INFO  ===o.s.b.w.s.c.ServletWebServerApplicationContext === Root WebApplicationContext: initialization completed in 530 ms
+2021-10-13 === [main] === INFO  ===o.s.boot.web.embedded.tomcat.TomcatWebServer === Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-13 === [main] === INFO  ===com.neu.springboot.SpringbootLoggingApplication === Started SpringbootLoggingApplication in 1.012 seconds (JVM running for 1.492)
+2021-10-13 === [main] === INFO  ===com.neu.springboot.SpringbootLoggingApplication === Starting SpringbootLoggingApplication using Java 1.8.0_20 on DESKTOP-AKCHJRN with PID 13984 (E:\坚果云\我的坚果云\springboot-logging\target\classes started by neu in E:\坚果云\我的坚果云\springboot-logging)
+2021-10-13 === [main] === DEBUG ===com.neu.springboot.SpringbootLoggingApplication === Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-13 === [main] === INFO  ===com.neu.springboot.SpringbootLoggingApplication === No active profile set, falling back to default profiles: default
+2021-10-13 === [main] === INFO  ===org.springframework.boot.web.embedded.tomcat.TomcatWebServer === Tomcat initialized with port(s): 8080 (http)
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.StandardService === Starting service [Tomcat]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.StandardEngine === Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === An older version [1.2.24] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.AprLifecycleListener === OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-10-13 === [main] === INFO  ===org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] === Initializing Spring embedded WebApplicationContext
+2021-10-13 === [main] === INFO  ===org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext === Root WebApplicationContext: initialization completed in 529 ms
+2021-10-13 === [main] === INFO  ===org.springframework.boot.web.embedded.tomcat.TomcatWebServer === Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-13 === [main] === INFO  ===com.neu.springboot.SpringbootLoggingApplication === Started SpringbootLoggingApplication in 1.072 seconds (JVM running for 1.78)
+2021-10-13 23:32:30.742  INFO 7984 --- [main] c.n.s.SpringbootLoggingApplication       : Starting SpringbootLoggingApplication using Java 1.8.0_20 on DESKTOP-AKCHJRN with PID 7984 (E:\坚果云\我的坚果云\springboot-logging\target\classes started by neu in E:\坚果云\我的坚果云\springboot-logging)
+2021-10-13 23:32:30.747 DEBUG 7984 --- [main] c.n.s.SpringbootLoggingApplication       : Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-13 23:32:30.748  INFO 7984 --- [main] c.n.s.SpringbootLoggingApplication       : No active profile set, falling back to default profiles: default
+2021-10-13 23:32:31.243  INFO 7984 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-10-13 23:32:31.253  INFO 7984 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-10-13 23:32:31.253  INFO 7984 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-13 23:32:31.254  INFO 7984 --- [main] o.a.c.c.AprLifecycleListener             : An older version [1.2.24] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-10-13 23:32:31.254  INFO 7984 --- [main] o.a.c.c.AprLifecycleListener             : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-10-13 23:32:31.254  INFO 7984 --- [main] o.a.c.c.AprLifecycleListener             : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2021-10-13 23:32:31.254  INFO 7984 --- [main] o.a.c.c.AprLifecycleListener             : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-10-13 23:32:31.256  INFO 7984 --- [main] o.a.c.c.AprLifecycleListener             : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-10-13 23:32:31.306  INFO 7984 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-10-13 23:32:31.307  INFO 7984 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 536 ms
+2021-10-13 23:32:31.502  INFO 7984 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-13 23:32:31.508  INFO 7984 --- [main] c.n.s.SpringbootLoggingApplication       : Started SpringbootLoggingApplication in 1.052 seconds (JVM running for 1.704)

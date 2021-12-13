@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9aaf35a2-4db5-4ecd-8374-53a5dacfd9e9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tWLDHwdsBtmM5PLt3rUpu0Pxx1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jedis/src/main/java/cn/neu" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java-work\jedis\src\main\java\cn\neu" />
+      <recent name="F:\java-work\jedis\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.testPing">
+    <configuration name="testPing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.neu.testPing" />
+      <module name="jedis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.neu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.neu.SpringBootRedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.testPing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9aaf35a2-4db5-4ecd-8374-53a5dacfd9e9" name="Default Changelist" comment="" />
+      <created>1622879777819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622879777819</updated>
+      <workItem from="1622879779572" duration="4431000" />
+      <workItem from="1623334861451" duration="1287000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1622879866584">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622879866584" />
+    <state x="970" y="190" key="FileChooserDialogImpl" timestamp="1623335112175">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="970" y="190" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623335112175" />
+    <state width="1877" height="187" key="GridCell.Tab.0.bottom" timestamp="1622956446385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622956446385" />
+    <state width="1877" height="187" key="GridCell.Tab.0.center" timestamp="1622956446385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="187" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622956446385" />
+    <state width="1877" height="187" key="GridCell.Tab.0.left" timestamp="1622956446385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="187" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622956446385" />
+    <state width="1877" height="187" key="GridCell.Tab.0.right" timestamp="1622956446385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="187" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622956446385" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1622879954644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622879954644" />
+    <state x="593" y="130" width="1195" height="611" key="new project wizard" timestamp="1623335206039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="593" y="130" width="1195" height="611" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623335206039" />
+  </component>
+</project>
