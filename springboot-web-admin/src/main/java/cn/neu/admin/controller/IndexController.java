@@ -1,16 +1,34 @@
 package cn.neu.admin.controller;
 
 import cn.neu.admin.bean.User;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
-
+import javax.sql.DataSource;
+@Slf4j
 @Controller
 public class IndexController {
+    @Autowired
+    JdbcTemplate jdbcTemplate;
+
+    @Autowired
+    DataSource dataSource;
+
+    @ResponseBody
+    @GetMapping("/sql")
+    public String queryFromDb(){
+        Long count = jdbcTemplate.queryForObject("select count(*) from user", Long.class);
+        return count.toString();
+    }
 
     /**
      * 到登录页
