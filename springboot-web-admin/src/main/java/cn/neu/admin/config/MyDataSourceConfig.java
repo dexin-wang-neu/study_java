@@ -14,7 +14,11 @@ import javax.sql.DataSource;
 import java.sql.SQLException;
 import java.util.Arrays;
 
-@Configuration
+/**
+ * 通过druid-spring-boot-starter 可以简化操作，这个配置类就不用自己写了
+ */
+@Deprecated
+//@Configuration
 public class MyDataSourceConfig {
 
     //@ConditionalOnMissingBean(DataSource.class) 默认的自动配置是判断容器中没有才会配置数据源

@@ -30,41 +30,65 @@
 
         <!--body wrapper start-->
         <div class="wrapper">
-        <div class="row">
-        <div class="col-sm-12">
-        <section class="panel">
-        <header class="panel-heading">
-            Dynamic Table
-            <span class="tools pull-right">
+            <div class="row">
+                <div class="col-sm-12">
+                    <section class="panel">
+                        <header class="panel-heading">
+                            Dynamic Table
+                            <span class="tools pull-right">
                 <a href="javascript:;" class="fa fa-chevron-down"></a>
                 <a href="javascript:;" class="fa fa-times"></a>
              </span>
-        </header>
-        <div class="panel-body">
-        <div class="adv-table">
-        <table  class="display table table-bordered table-striped" id="dynamic-table">
-        <thead>
-        <tr>
-            <th>#</th>
-            <th>用户名</th>
-            <th>密码</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="gradeX" th:each="user,status:${users}">
-            <td th:text="${status.count}"></td>
-            <td th:text="${user.username}"></td>
-            <td th:text="${user.password}"></td>
-        </tr>
+                        </header>
+                        <div class="panel-body">
+                            <div class="adv-table">
+                                <table class="display table table-bordered table-striped" id="dynamic-table">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>id</th>
+                                        <th>name</th>
+                                        <th>age</th>
+                                        <th class="hidden-phone">email</th>
+                                        <th class="hidden-phone">操作</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody role="alert" aria-live="polite" aria-relevant="all">
+                                    <tr class="gradeX" th:each="user,stat:${page.records}">
+                                        <td th:text="${stat.count}"> Trident</td>
+                                        <td th:text="${user.id}">id</td>
+                                        <td th:text="${user.name}">Internet
+                                            Explorer 4.0
+                                        </td>
+                                        <td th:text="${user.age}">Win 95+</td>
+                                        <td class="center hidden-phone">[[${user.email}]]</td>
+                                        <td class="center hidden-phone">
+                                            <a th:href="@{/user/delete/{id}(id=${user.id},pn=${page.current})}" class="btn btn-danger btn-sm" type="button">删除</a>
+                                        </td>
+                                    </tr>
 
-        </tbody>
-        </table>
+                                    </tbody>
+                                    <div class="row-fluid">
+                                        <div class="span6">
+                                            <div class="dataTables_info" id="dynamic-table_info">当前第[[${page.current}]]
+                                                总计[[${page.pages}]]页  共 [[${page.total}]] 条记录
+                                            </div>
+                                            <div class="dataTables_paginate paging_bootstrap pagination">
+                                                <ul>
+                                                    <li class="prev disabled"><a href="#">前一页</a></li>
+                                                    <li th:class="${num == page.current ? 'active' :''}" th:each="num:${#numbers.sequence(1,page.pages)}">
+                                                        <a th:href="@{/dynamic_table(pn=${num})}">[[${num}]]</a></li>
+                                                    <li class="next"><a href="#">下一页</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+                </div>
 
-        </div>
-        </div>
-        </section>
-        </div>
-        </div>
         </div>
         <!--body wrapper end-->
 

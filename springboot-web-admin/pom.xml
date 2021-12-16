@@ -59,11 +59,12 @@
             <scope>test</scope>
         </dependency>
 
+        <!--引入mybatis-plus时，也引入了这个依赖，所以就可以注释掉了-->
         <!--数据库开发场景-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-jdbc</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-jdbc</artifactId>-->
+<!--        </dependency>-->
 
         <!--MySQL驱动,数据库版本要和驱动版本对应-->
         <dependency>
@@ -71,12 +72,38 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.49</version>
         </dependency>
+
+        <!-- 通过druid-spring-boot-starter 简化Druid的配置，所以这里的依赖就可以注释掉了-->
         <!--引入Druid数据源-->
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba</groupId>-->
+<!--            <artifactId>druid</artifactId>-->
+<!--            <version>1.1.16</version>-->
+<!--        </dependency>-->
+
         <dependency>
             <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
+            <artifactId>druid-spring-boot-starter</artifactId>
             <version>1.1.16</version>
         </dependency>
+
+
+        <!--引入mybatis-plus时，也引入了这个依赖，所以就可以注释掉了-->
+        <!--整合mybatis-->
+<!--        <dependency>-->
+<!--            <groupId>org.mybatis.spring.boot</groupId>-->
+<!--            <artifactId>mybatis-spring-boot-starter</artifactId>-->
+<!--            <version>2.1.4</version>-->
+<!--        </dependency>-->
+
+
+        <!--整合mybatis-plus-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.4.3.4</version>
+        </dependency>
+
 
     </dependencies>
 

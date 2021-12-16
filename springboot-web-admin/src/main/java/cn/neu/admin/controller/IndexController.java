@@ -1,6 +1,10 @@
 package cn.neu.admin.controller;
 
+import cn.neu.admin.bean.Account;
+import cn.neu.admin.bean.City;
 import cn.neu.admin.bean.User;
+import cn.neu.admin.service.AccountService;
+import cn.neu.admin.service.CityService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -8,9 +12,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
 import javax.sql.DataSource;
@@ -22,6 +24,36 @@ public class IndexController {
 
     @Autowired
     DataSource dataSource;
+
+    @Autowired
+    AccountService accountService;
+
+    @Autowired
+    CityService cityService;
+
+    @ResponseBody
+    @PostMapping("/city")
+    public City saveCity(City city){
+        cityService.saveCity(city);
+        return city;
+    }
+
+    /**
+     * mybatis采用纯注解方式
+     * @param id
+     * @return
+     */
+    @ResponseBody
+    @GetMapping("/getCity")
+    public City getCityById(@RequestParam("id") Integer id){
+        return cityService.getCityMapper(id);
+    }
+
+    @ResponseBody       //直接返回json数据到页面
+    @GetMapping("/account")
+    public Account getById(@RequestParam("id") Long id){
+        return accountService.getAcctById(id);
+    }
 
     @ResponseBody
     @GetMapping("/sql")
