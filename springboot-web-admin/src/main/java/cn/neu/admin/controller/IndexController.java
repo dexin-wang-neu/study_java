@@ -49,13 +49,15 @@ public class IndexController {
     @GetMapping("/main.html")
     public String mainPage(HttpSession session,Model model){
         //判断是否登录。拦截器，过滤器
-        Object user = session.getAttribute("loginUser");
-        if(user != null){
-            return "main";
-        }else {
-            //回到登录页
-            model.addAttribute("msg","请重新登录");
-            return "login";
-        }
+        //已经配置了拦截器，所以这里可以注释掉了
+//        Object user = session.getAttribute("loginUser");
+//        if(user != null){
+//            return "main";
+//        }else {
+//            //回到登录页
+//            model.addAttribute("msg","请重新登录");
+//            return "login";
+//        }
+        return "main";
     }
 }
