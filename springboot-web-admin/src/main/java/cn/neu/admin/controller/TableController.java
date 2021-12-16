@@ -1,6 +1,7 @@
 package cn.neu.admin.controller;
 
 import cn.neu.admin.bean.User;
+import cn.neu.admin.exception.UserTooManyExceptionHandler;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,7 +14,7 @@ public class TableController {
 
     @GetMapping("/basic_table")
     public String basic_table(){
-
+        int i = 10/0;  //自定义了500异常
         return "table/basic_table";
     }
     @GetMapping("/dynamic_table")
@@ -23,6 +24,9 @@ public class TableController {
                 new User("lisi", "111111"),
                 new User("haha", "aaaaaa"),
                 new User("hehe", "dddddd"));
+        if (users.size() > 3){
+            throw new UserTooManyExceptionHandler();
+        }
         model.addAttribute("users",users);
         return "table/dynamic_table";
     }

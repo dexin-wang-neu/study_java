@@ -76,6 +76,8 @@ public class IndexController {
 //            model.addAttribute("msg","请重新登录");
 //            return "login";
 //        }
+
+
         return "main";
     }
 }
