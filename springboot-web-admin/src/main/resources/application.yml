@@ -42,3 +42,9 @@ mybatis:
 
   configuration:    # 有了这里的配置，就不要指定mybatis的全局配置文件
     map-underscore-to-camel-case: true   # 开启驼峰命名规则
+
+server:
+  port: 8088
+  tomcat:
+
+    uri-encoding: UTF-8

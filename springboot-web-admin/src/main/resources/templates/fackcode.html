@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form class="form-signin" action="main.html" method="post" th:action="@{/generateFakeCodeInfo}">
+
+    <div class="login-wrap">
+        <label style="color: #a85959" th:text="${msg}"></label>
+        <input type="text" class="form-control" name="username" placeholder="用户名" autofocus>
+        <input type="text" class="form-control" name="usercode" placeholder="学号">
+        <input type="text" class="form-control" name="gate" placeholder="校门">
+
+        <button class="btn btn-lg btn-login btn-block" type="submit">
+            <i class="fa fa-check">提交</i>
+        </button>
+
+    </div>
+
+
+
+</form>
+
+</div>
+
+</body>
+</html>
