@@ -1,0 +1,41 @@
+server:
+  port: 3355
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master  #分支名称
+      name: config  #配置文件名称
+      profile: dev  #读取后缀名称   上述三个综合http://localhost:3344/master/config-dev.yml
+      uri: http://localhost:3344  #配置中心的地址
+    discovery:
+      enabled: true
+      client:
+        simple:
+          local:
+            service-id: config-client
+  # 添加消息总线 rabbitmq相关配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+#服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+      #设置与eureka server交互的地址查询服务和注册服务都需要依赖这个地址
+      defaultZone: http://localhost:7001/eureka #单机版
+
+#1. 暴漏监控端点(解决client客户端不能跟着GitHub变化的问题）
+# 2. 在业务类上加@RefreshScope注解
+# 3. 发送post请求到本应用  curl -X POST "http://localhost:3355/actuator/refresh"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+

@@ -1,0 +1,31 @@
+
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: cloud-config-center
+
+# 添加消息总线 rabbitmq相关配置  用于gitee上改了配置后，通知其他微服务获取修改后的内容
+# curl -X POST "http://localhost:3344/actuator/bus-refresh/config-client:3366" 定点通知config-client服务下的3366端口服务
+# curl -X POST "http://localhost:3344/actuator/bus-refresh“ 全局广播
+rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+
+
+
+##rabbitmq相关配置,暴露bus刷新配置的端点 SpringCloud Bus动态刷新全局广播
+management:
+  endpoints: #暴露bus刷新配置的端点
+    web:
+      exposure:
+        include: "bus-refresh"
+
